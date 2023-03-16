@@ -5,9 +5,9 @@
  * @author GGG
  *
  */
-module http_ex {
+module myalbum {
 	requires com.google.gson;
-	opens ch03;
-	opens ch01;
+	opens com.albums;
+	requires java.sql;
 	
 }

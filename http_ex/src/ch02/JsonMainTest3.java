@@ -68,7 +68,6 @@ public class JsonMainTest3 {
 		System.out.println("======================================");
 		
 		JsonArray jsonArray4 = new JsonArray();
-		
 		JsonObject jsonObject4 = new JsonObject();
 		jsonObject4.addProperty("name", "홍길동");
 		jsonObject4.addProperty("age", 20);

@@ -52,6 +52,14 @@ public class MainTest1 {
 			String resultStr = sb.toString();
 			System.out.println(resultStr);
 			
+
+			
+			
+			
+			
+			
+			
+			
 			// Gson 라이브 가지고 오고 설정 하는 방법
 			// gson 대표적인 사용법 및 개념 확인하기 
 			Gson gson = new Gson();

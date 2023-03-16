@@ -33,24 +33,20 @@ public class MainTest2 {
 				StringBuffer sb = new StringBuffer();
 				while( (line = reader.readLine()) != null ) {
 					sb.append(line);
+					
 				}
-				
 				String result = sb.toString();
 				
 				Gson gson = new Gson();
+				// System.out.println(result.toString());
 				
+				System.out.println("==========================================");
 				Type listType = new TypeToken<List<User>>() {}.getType();
 				
 				ArrayList<User> todoList = gson.fromJson(result, listType);
 				for (User user : todoList) {
 					System.out.println(user);
 				}
-				
-		
-				
-				
-				
-
 				
 			} catch (IOException e) {
 				e.printStackTrace();
