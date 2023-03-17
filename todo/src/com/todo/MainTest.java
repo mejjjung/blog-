@@ -52,7 +52,7 @@ public class MainTest {
 			UserDAO dao = new UserDAO();
 			UserDTO dto = new UserDTO();
 			for (Todo todo : todoList) {
-				dao.insert(todo.getUserId(), todo.getId(), todo.getTitle(), todo.isCompleted());
+			dao.insert(todo.getUserId(), todo.getId(), todo.getTitle(), todo.isCompleted());
 			}
 			int Delete = dao.delete(1, 5);
 
